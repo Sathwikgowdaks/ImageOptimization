@@ -26,3 +26,4 @@ const videoSchema = new Schema<IVideo>({
 
 const Video = model<IVideo>('Video', videoSchema);
 
+export default Video;
